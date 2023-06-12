@@ -9,6 +9,8 @@ class Comment extends Model
 {
     use HasFactory;
 
+    protected $fillable = ['body'];
+
     /**
      * Comment - User DB relationship
      *

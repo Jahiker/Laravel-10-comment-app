@@ -9,6 +9,8 @@ class Reply extends Model
 {
     use HasFactory;
 
+    protected $fillable = ['comment_id','body'];
+
     /**
      * Reply - User DB relationship
      *
